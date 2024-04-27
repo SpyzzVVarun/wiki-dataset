@@ -34,6 +34,37 @@ The categories, their entity counts and the templates are provided below. The te
 10. [Tennis](https://en.wikipedia.org/wiki/Template:Infobox_tennis_biography) - 3077
 11. [Table Tennis](https://en.wikipedia.org/wiki/Template:Infobox_table_tennis_player) - 831
 
+## Contents
+
+`infoboxes_1`: Contains the infobox data for each entity and is contained within the category folders
+
+`pages_1`: Contains the non-infobox page content for each entity and is contained within the category folders
+
+`scripts` - Contains the category-wise data extraction and processing code.
+
+## Steps to Reproduce
+
+### Infoboxes
+
+1. Go to the category sub-directory in the `scripts` directory.
+2. Extract the relevant entities to `titles.txt`
+   
+   ```
+   python entities.py
+   ```
+
+3. Create the folder with the name `f"{TEMPLATE}-infoboxes"` with TEMPLATE from `constants.py`
+4. Extract the entities to the the above created directory
+
+   ```
+   python main.py
+   ```
+
+### Non-Infobox
+
+1. Go to the `pages` sub-directory in the `scripts` directory.
+2. Run `code.ipynb`
+
 ## Example Data Instance: Sachin Tendulkar
 
 ### Non-Infobox Page Content
@@ -151,6 +182,8 @@ The non-infobox text on the Wikipedia page of Sachin Tendulkar, accessible at [t
     ]
 }
 ```
+
+
 
 ## Version Information
 
