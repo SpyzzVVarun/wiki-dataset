@@ -3,7 +3,7 @@
 
 ## Overview 
 
-A dataset of 31,944 entities across 11 sports categories, comprising structured infoboxes and unstructured content extracted from Wikipedia articles, intended for tasks in Information Extraction, such as automated infobox generation and updating from page content, and Text Generation, such as Text-to-Table and Table-to-Text generation.
+A dataset of 29,051 entities across 11 sports categories, comprising structured infoboxes and unstructured content extracted from Wikipedia articles, intended for tasks in Information Extraction, such as automated infobox generation and updating from page content, and Text Generation, such as Text-to-Table and Table-to-Text generation.
 
 
 ## Motivation
@@ -29,7 +29,7 @@ The categories, their entity counts and the templates are provided below. The te
 5. [Cricketer](https://en.wikipedia.org/wiki/Template:Infobox_cricketer) - 4945
 6. [Cyclist](https://en.wikipedia.org/wiki/Template:Infobox_cyclist) - 4945
 7. [Equesterian](https://en.wikipedia.org/wiki/Template:Infobox_equestrian) - 188
-8. [Football](https://en.wikipedia.org/wiki/Template:Infobox_football_biography) - 
+8. [Football](https://en.wikipedia.org/wiki/Template:Infobox_football_biography) - 4607
 9. [Squash](https://en.wikipedia.org/wiki/Template:Infobox_squash_player) - 774
 10. [Tennis](https://en.wikipedia.org/wiki/Template:Infobox_tennis_biography) - 3077
 11. [Table Tennis](https://en.wikipedia.org/wiki/Template:Infobox_table_tennis_player) - 831
